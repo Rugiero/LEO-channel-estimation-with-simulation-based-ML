@@ -373,8 +373,8 @@ def demo():
     # with open("my_posterior100000.pkl", "wb") as handle: # Save the training
     #     pickle.dump(posterior, handle)
 
-    with open("my_posterior100000.pkl", "rb") as handle: # Load an existing training
-        posterior = pickle.load(handle)
+    # with open("my_posterior100000.pkl", "rb") as handle: # Load an existing training
+    #    posterior = pickle.load(handle)
     
     # One synthetic observed dataset
     theta_true1 = torch.tensor([0.04, 3.0], dtype=torch.float32)
